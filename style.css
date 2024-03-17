@@ -1,0 +1,109 @@
+/* set all margins 0- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* define custom colours FFF7F1 FFE4C9  E78895 BED1CF*/
+:root {
+    --primary-color: #E78895;
+    --secondary-color: #FFE4C9;
+    --tertiary-color: #FFF7F1;
+    --quaternary-color: #BED1CF;
+}
+/* set all box-sizing to border-box */
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* set body to 100% height */
+body {
+    height: 100%;
+    font-family: Laila;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    color: #000000; ;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+    ;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+}
+
+.navbar {
+    height: 20%;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.projects-container {
+    grid
+}
+.right-content {
+    width: 20%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
